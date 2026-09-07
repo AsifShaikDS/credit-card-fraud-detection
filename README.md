@@ -52,8 +52,8 @@ jupyter notebook ET_401_Credit_Card_Fraud.ipynb
 Serve the pre-trained models:
 
 ```bash
-git clone https://github.com/AsifShaikDS/et_4_project.git
-cd et_4_project/et_deployment_ml_model
+git clone https://github.com/AsifShaikDS/credit-card-fraud-detection.git
+cd credit-card-fraud-detection/et_deployment_ml_model
 docker build -t fraud-api .
 docker run -p 4000:80 fraud-api
 ```
